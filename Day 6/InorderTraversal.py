@@ -10,6 +10,7 @@ class Solution:
                 helper(root.left)
                 self.results+=[root.val]
                 helper(root.right)
+            
             return 
         
         helper(root)

@@ -36,7 +36,6 @@ class Codec:
             if data[index] != 'X':
                 node.left = TreeNode(int(data[index]))
                 q.append(node.left)
-            
             index += 1
             
             if data[index] != 'X':
