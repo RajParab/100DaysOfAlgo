@@ -11,5 +11,4 @@ def LongestIncreasingSubSequence(arr):
 
 	return max(ans)
 
-print(LongestIncreasingSubSequence([0, 8, 2,4,1]
-))
+print(LongestIncreasingSubSequence([-1,3,4,5,2,2,2,2]))
