@@ -28,4 +28,5 @@ def serialize(root):
 	dfs(root)
 	return "".join(ans)
 
+
 print(serialize(tree))
